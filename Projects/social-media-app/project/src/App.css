@@ -1,0 +1,23 @@
+.app-container{
+    display: flex;
+}
+.content{
+  width: 100%;
+}
+.sidebar {
+  width: 180px; /* Slightly reduced width */
+  min-height: 800px; /* Full height */
+    background-color: #343a40; /* Dark background */
+    padding: 15px;
+}
+.post-card{
+  margin: 20px 50px;
+}
+.reactions{
+  margin: 15px 0 0 0;
+}
+.create-post{
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 5%;
+}

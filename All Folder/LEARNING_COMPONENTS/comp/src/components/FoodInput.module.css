@@ -1,0 +1,10 @@
+
+/* FoodInput.module.css */
+.foodInput {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+} 

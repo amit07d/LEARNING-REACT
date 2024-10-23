@@ -1,0 +1,7 @@
+.calculator {
+  border: 1px solid rgb(139, 138, 138);
+  width: 200px;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #0a0a0a, #3a4452);
+}
+
