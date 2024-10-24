@@ -1,0 +1,139 @@
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+.header .text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1c1e21;
+  text-align: center;
+}
+
+.header .underline {
+  height: 4px;
+  width: 50px;
+  background-color: #4a90e2;
+  margin: 12px auto;
+  border-radius: 2px;
+}
+
+.inputs {
+  margin-top: 30px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #f0f2f5;
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.input:hover {
+  background-color: #e0e2e5;
+}
+
+.input img {
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.input input::placeholder {
+  color: #999;
+}
+
+.forgot-password {
+  font-size: 14px;
+  text-align: center;
+  color: #888;
+  margin: 10px 0;
+}
+
+.forgot-password span {
+  color: #4a90e2;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.forgot-password span:hover {
+  text-decoration: underline;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.submit {
+  width: 48%;
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 0;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+}
+
+/* Button hover effect */
+.submit:hover {
+  background-color: #357abd;
+  transform: translateY(-3px);
+}
+
+/* Button active state when clicked */
+.submit:active {
+  transform: translateY(0);
+}
+
+/* Disabled or inactive button */
+.gray {
+  background-color: #EAEAEA;
+  color: #676767;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
