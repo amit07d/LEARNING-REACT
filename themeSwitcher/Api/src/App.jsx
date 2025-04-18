@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import { ThemeProvider } from './contexts/theme';
 import ThemeBtn from './components/ThemeBtn.jsx';
-import Card from './components/Card'; // Assuming Card is in this path
+import Card from './components/Card'; 
 
 function App() {
   const [themeMode, setThemeMode] = useState("light");
